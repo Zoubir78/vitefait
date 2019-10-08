@@ -15,7 +15,7 @@ Provided are pictures, texts, main colors.
 - upload steps once weekly
 - deploy when ready**
 
-* As this is not a fully commercial project but has a training purpose, 
+Note * As this is not a fully commercial project but has a training purpose, 
 the means can be "overkill" for the result. 
 It should be rather fast though. 
-** the project should replace the existing website, link to follow
+Note ** the project should replace the existing website, link to follow
