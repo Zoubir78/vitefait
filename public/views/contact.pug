@@ -1,0 +1,23 @@
+extends ../templates/layout.pug
+block main
+    section
+        header
+            h1=title
+            p Contactez nous:
+            form#form(action="" method="post")
+                label(for="nom") Nom :
+                input#nom.text(type="text" name="nom")
+                br
+                label(for="prenom") Prénom :
+                input#nom.text(type="text" name="prenom")
+                br
+                label(for="email") Email :
+                input#email.text(type="text" name="email")
+                br
+                label(for="sujet") Sujet :
+                input#sujet.text(type="text" name="sujet")
+                br
+                label(for="message") Message :
+                textarea#message.text(name="message" rows="5" cols="10")
+                br
+                input.submit(type="submit" value="Envoyer")
